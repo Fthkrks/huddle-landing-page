@@ -1,0 +1,635 @@
+
+/*! Google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans', 'Poppins' ,sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+li,
+ul,
+ol{
+    list-style: none;
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: hsl(322, 100%, 66%);
+    padding: 1.6rem 7rem;
+    transition: 0.3s;
+    border-radius: 3.5rem;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+    box-shadow: 0 2px 10px 0 hsl(322, 100%, 66%);
+}
+
+
+
+.btn:hover{
+    opacity: 0.6;
+
+}
+
+.first-screen{
+    background: url(images/bg-hero-desktop.svg);
+    width: 100%;
+    height: 100%;
+}
+
+header .header-wrapper{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 6rem;
+}
+
+
+
+
+header .logo img{
+    width: 20rem;
+    height: auto;
+}
+
+
+header .try{
+    font-size: 1.3rem;
+    color: #00252e;
+    font-weight: 700;
+}
+
+
+.try a{
+    width: 20rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3.5rem;
+    padding: 1.6rem 5rem;
+    box-shadow: 0 2px 10px 0 hsl(208, 11%, 55%);
+    transition: 0.3s;
+    color: #00252E;
+    
+}
+
+.try a:hover{
+    background-color: #F7FDFF;
+}
+
+
+
+.promotion-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    margin-top: 7rem;
+}
+
+
+
+.promotion-text .promotion-title h3{
+    font-size: 4.5rem;
+    font-family: 'Poppins' ,sans-serif;
+    font-weight: 600;
+}
+
+
+.promotion .promotion-desc{
+    margin-top: 3rem;
+}
+
+.promotion-desc p{
+
+    font-size: 1.9rem;
+    text-align: center;
+    width: 550px;
+    height: auto;
+    margin: 0;
+}
+
+.promotion-image img{
+    width: 50rem;
+    height: auto;
+
+}
+
+
+.promotion-btn{
+    margin-top: 4rem;
+    font-size: 1.9rem;
+    transition: 0.3s ease all;
+    
+}
+
+
+
+
+
+.cards{
+    margin-top: 20rem;
+}
+
+.cards .cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+
+}
+
+
+ .card .card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120rem;
+    height: 50rem;
+    box-shadow: 0 0 10px 0 hsl(208, 11%, 55%);
+}
+
+
+
+
+.card .card-image img{
+    width: 40rem;
+
+}
+
+
+.card .card-title h3{
+    font-size: 3.1rem;
+    font-weight: 600;
+    color:#00252e;
+}
+
+
+.card .card-desc p{
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    color: #808d99;
+    width: 500px;
+    
+}
+
+
+.ready{
+    text-align: center;
+    position: relative;
+    z-index: 10;
+
+}
+
+
+.ready .ready-wrapper{
+    box-shadow: 0 0 10px 0 hsl(208, 11%, 55%);
+    width: 60rem;
+    height: 15rem;
+    position: absolute;
+    top: 9rem;
+    left: 45rem;
+    background-color: white;
+
+}
+
+
+.ready .ready-text{
+    margin-top: 3rem;
+}
+
+
+.ready .ready-text p{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.ready .ready-button{
+    margin-top: 3rem;
+}
+
+
+
+.footer{
+    background-color: #00252E;
+    margin-top: 20rem;
+    color: white;
+    padding: 10rem 0;
+    z-index: -10;
+    overflow: hidden;
+
+
+}
+
+
+.footer .footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.footer .brand-logo{
+    color: white;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
+    text-align: start;
+    position: absolute;
+    left: 17rem;
+    top: -5rem;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 15rem;
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact .adress, .phone, .email{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    font-size: 1.3rem;
+}
+
+
+.contact .adress .adress-text p{
+    width: 280px;
+}
+
+.footer-content .navbar{
+    display: flex;
+    font-size: 1.6rem;
+    gap: 10rem;
+    align-items: center;
+}
+
+
+.navbar .navbar-left ul , .navbar-right ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+.navbar .navbar-left ul li a:hover , .navbar-right ul li a:hover{
+
+text-decoration: underline;
+}
+
+
+.footer .social-media{
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+}
+
+.footer .social-media .social-list {
+    display: flex;
+    gap: 4rem;
+}
+
+
+.social-list .social-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    font-size: 1.6rem;
+    width: 4rem;
+    height: 4rem;
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+
+
+.social-list .social-item:hover a{
+    color:hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+
+.social-list .social-item:hover{
+    color:hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+
+.footer .social-media .copyright span{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media (max-width: 850px){
+
+
+
+    header .header-wrapper{
+        width: 100vw;
+    }
+
+   
+  
+    .promotion .promotion-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promotion-btn{
+        margin-bottom: 7rem;
+        
+    }
+
+    .card .card-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 40rem;
+        height: auto;
+        padding: 2rem;
+
+    }
+
+    
+
+    .card:nth-child(2) .card-wrapper{
+        flex-direction: column;
+    }
+
+
+    .ready .ready-wrapper{
+        box-shadow: 0 0 10px 0 hsl(208, 11%, 55%);
+        width: 60rem;
+        height: 15rem;
+        position: absolute;
+        top: 9rem;
+        left: 10rem;
+        background-color: white;
+
+    
+    }
+
+
+
+    .footer .footer-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 11rem;
+        margin-left: 10rem;
+    }
+
+
+
+    .footer .brand-logo{
+        color: white;
+        margin-top: 15rem;
+        margin-bottom: 3rem;
+        text-align: start;
+        position: absolute;
+        left: 12rem;
+        top: -10rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      
+
+
+
+
+
+
+    .contact {
+    flex: 1 0 300px; /* İlk bölüm (contact) 300 piksel genişliğe sahip olacak, diğerlerinin genişliği otomatik olarak ayarlanacak */
+    margin-right: 10px; /* Bölümler arasında 10 piksel sağ boşluk bırakmak için */
+    }
+      
+
+    .contact .adress .adress-text p{
+    width: 300px;
+                
+    
+    }
+
+
+    .navbar {
+    flex: 1; /* İkinci bölüm (navbar) eşit genişlikte olacak */
+    display: flex; /* İçerideki menüleri yan yana sıralamak için */
+    justify-content: space-evenly; /* Menüleri yatay olarak aralarında boşluk bırakarak hizalamak için */
+    margin-top: 10px;
+    margin-right: 12rem; /* Navbar'ın üstünde 10 piksel boşluk bırakmak için */
+    width: 500%;
+    }
+
+    
+    
+    .social-media {
+    flex-basis: 100%; /* Üçüncü bölüm (social-media) tüm satırı kaplayacak şekilde ayarlanır */
+    margin-top: 10px; /* Social-media'nın üstünde 10 piksel boşluk bırakmak için */
+    align-items: center;
+    margin-top: 4rem; /* Sosyal medya ikonlarını ortalamak için */
+    }
+    
+    .social-list {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .social-item {
+    display: inline-block;
+    margin: 0 5px; /* Sosyal medya ikonları arasında 5 piksel boşluk bırakmak için */
+    }
+
+
+
+    .contact .adress .adress-text p{
+    font-size: 1.5rem;
+            
+        
+    }
+
+
+    .contact .phone .number{
+        font-size: 1.5rem;
+    }
+
+
+    .contact .email .mail{
+        font-size: 1.5rem;
+    }
+
+
+
+    .footer .social-media .social-list {
+    display: flex;
+    gap: 1rem;
+
+    }
+
+    .navbar .navbar-left, .navbar-right{
+        width: 100px;
+    }
+}
+
+
+@media (max-width: 450px){
+
+
+
+    .btn{
+        background-color: hsl(322, 100%, 66%);
+        padding: 1.2rem 4rem;
+        transition: 0.3s;
+        border-radius: 3.5rem;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 700;
+        box-shadow: 0 2px 10px 0 hsl(322, 100%, 66%);
+    }
+
+
+    header .header-wrapper{
+        width: 200vw;
+        padding: 0 1rem;
+    }
+    
+    header .logo img{
+        width: 15rem;
+    }
+    
+    
+    header .try{
+        font-size: 1.2rem;
+    }
+
+    
+    .promotion-text .promotion-title{
+        width: 500px;
+        text-align: center;
+    }
+    
+    .promotion-text .promotion-title h3{
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+
+    }
+
+
+    .promotion .promotion-desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .promotion .promotion-desc p{
+        text-align: center;
+        width: 380px;
+        height: auto;
+        margin: 0;
+
+    }
+
+
+    .promotion .promotion-btn{
+        text-align: center;
+    }
+
+
+
+
+    .card .card-title{
+        margin-top: 3rem;
+    }
+
+
+    .card .card-desc p{
+        width: 300px;
+    }
+
+
+    .ready .ready-wrapper{
+        width: 40rem;
+        text-align: center;
+        left: 0;
+    }
+
+    .ready .ready-text p{
+        font-size: 2rem;
+    }
+
+
+
+    .footer .footer-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: flex-start;
+        margin-top: 5rem;
+
+    }
+
+    .navbar .navbar-right{
+        margin-top: 0;
+    }
+
+
+    .social-media{
+        position: relative;
+    }
+
+
+
+
+    .social-media .copyright{
+        position: absolute;
+        left: 0;
+        top: 10rem;  
+    }
+}
